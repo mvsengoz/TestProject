@@ -17,7 +17,7 @@ public class BatchReader implements Tasklet {
 	
 	public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception 
     {
-		 log.debug("reader start..");
+		 log.debug("reader start...");
 		 
 		 Evidence evidence =null;
 		 EvidenceDetail evidenceDetail=null;
